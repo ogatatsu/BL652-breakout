@@ -1,0 +1,922 @@
+EESchema Schematic File Version 2
+LIBS:device
+LIBS:switches
+LIBS:power
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BL652
+LIBS:BL652 breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BL652 breakout"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C2
+U 1 1 59365F2A
+P 3600 2050
+F 0 "C2" H 3625 2150 50  0000 L CNN
+F 1 "12pF" H 3625 1950 50  0000 L CNN
+F 2 ".pretty:1608" H 3638 1900 50  0001 C CNN
+F 3 "" H 3600 2050 50  0001 C CNN
+	1    3600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 593660C1
+P 3600 2550
+F 0 "C3" H 3625 2650 50  0000 L CNN
+F 1 "12pF" H 3625 2450 50  0000 L CNN
+F 2 ".pretty:1608" H 3638 2400 50  0001 C CNN
+F 3 "" H 3600 2550 50  0001 C CNN
+	1    3600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 593660E2
+P 4000 2300
+F 0 "Y1" H 4000 2450 50  0000 C CNN
+F 1 "32.768kHz" H 4000 2150 50  0000 C CNN
+F 2 ".pretty:FC-135" H 4000 2300 50  0001 C CNN
+F 3 "" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 P25
+U 1 1 593675A5
+P 8950 4700
+F 0 "P25" H 9200 4700 50  0001 C CNN
+F 1 "25" H 9050 4700 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 4700 50  0001 C CNN
+F 3 "" H 8950 4700 50  0001 C CNN
+	1    8950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 P26
+U 1 1 59367750
+P 8950 4550
+F 0 "P26" H 9200 4550 50  0001 C CNN
+F 1 "26" H 9050 4550 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 4550 50  0001 C CNN
+F 3 "" H 8950 4550 50  0001 C CNN
+	1    8950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 P28
+U 1 1 59367A6D
+P 8950 4250
+F 0 "P28" H 9200 4250 50  0001 C CNN
+F 1 "28" H 9050 4250 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 4250 50  0001 C CNN
+F 3 "" H 8950 4250 50  0001 C CNN
+	1    8950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 P29
+U 1 1 59367AB2
+P 8950 4100
+F 0 "P29" H 9200 4100 50  0001 C CNN
+F 1 "29" H 9050 4100 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 P30
+U 1 1 59367B4E
+P 8950 3950
+F 0 "P30" H 9200 3950 50  0001 C CNN
+F 1 "30" H 9050 3950 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3950 50  0001 C CNN
+F 3 "" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 P2
+U 1 1 5936806F
+P 7900 3500
+F 0 "P2" H 8150 3500 50  0001 C CNN
+F 1 "2" H 8000 3500 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3500 50  0001 C CNN
+F 3 "" H 7900 3500 50  0001 C CNN
+	1    7900 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P3
+U 1 1 59368F90
+P 7900 3650
+F 0 "P3" H 8150 3650 50  0001 C CNN
+F 1 "3" H 8000 3650 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3650 50  0001 C CNN
+F 3 "" H 7900 3650 50  0001 C CNN
+	1    7900 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P4
+U 1 1 59368FD5
+P 7900 3800
+F 0 "P4" H 8150 3800 50  0001 C CNN
+F 1 "4" H 8000 3800 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3800 50  0001 C CNN
+F 3 "" H 7900 3800 50  0001 C CNN
+	1    7900 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P5
+U 1 1 5936900F
+P 7900 2900
+F 0 "P5" H 8150 2900 50  0001 C CNN
+F 1 "5" H 8000 2900 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 2900 50  0001 C CNN
+F 3 "" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PTX1
+U 1 1 59369050
+P 8650 2350
+F 0 "PTX1" H 8900 2350 50  0001 C CNN
+F 1 "TX" V 8750 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8650 2350 50  0001 C CNN
+F 3 "" H 8650 2350 50  0001 C CNN
+	1    8650 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 P7
+U 1 1 59369094
+P 7900 3050
+F 0 "P7" H 8150 3050 50  0001 C CNN
+F 1 "7" H 8000 3050 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3050 50  0001 C CNN
+F 3 "" H 7900 3050 50  0001 C CNN
+	1    7900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PRX1
+U 1 1 593690D7
+P 8500 2350
+F 0 "PRX1" H 8750 2350 50  0001 C CNN
+F 1 "RX" V 8600 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8500 2350 50  0001 C CNN
+F 3 "" H 8500 2350 50  0001 C CNN
+	1    8500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 P12
+U 1 1 5936BD80
+P 7900 4100
+F 0 "P12" H 8200 4100 50  0001 C CNN
+F 1 "12" H 8000 4100 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4100 50  0001 C CNN
+F 3 "" H 7900 4100 50  0001 C CNN
+	1    7900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P14
+U 1 1 5936BEB8
+P 7900 4250
+F 0 "P14" H 8200 4250 50  0001 C CNN
+F 1 "14" H 8000 4250 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4250 50  0001 C CNN
+F 3 "" H 7900 4250 50  0001 C CNN
+	1    7900 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P16
+U 1 1 5936C1FC
+P 7900 4400
+F 0 "P16" H 8200 4400 50  0001 C CNN
+F 1 "16" H 8000 4400 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4400 50  0001 C CNN
+F 3 "" H 7900 4400 50  0001 C CNN
+	1    7900 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PDFU1
+U 1 1 5936CAB3
+P 7100 5000
+F 0 "PDFU1" H 7400 5000 50  0001 C CNN
+F 1 "DFU" H 7200 5000 50  0000 L CNN
+F 2 ".pretty:Circle" H 7100 5000 50  0001 C CNN
+F 3 "" H 7100 5000 50  0001 C CNN
+	1    7100 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PRST1
+U 1 1 5936D37E
+P 8950 3200
+F 0 "PRST1" H 9250 3200 50  0001 C CNN
+F 1 "RST" H 9050 3200 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3200 50  0001 C CNN
+F 3 "" H 8950 3200 50  0001 C CNN
+	1    8950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 PCLK1
+U 1 1 5936D459
+P 7900 4700
+F 0 "PCLK1" H 8200 4700 50  0001 C CNN
+F 1 "CLK" H 8000 4700 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4700 50  0001 C CNN
+F 3 "" H 7900 4700 50  0001 C CNN
+	1    7900 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PDIO1
+U 1 1 5936D53A
+P 7900 4850
+F 0 "PDIO1" H 8200 4850 50  0001 C CNN
+F 1 "DIO" H 8000 4850 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4850 50  0001 C CNN
+F 3 "" H 7900 4850 50  0001 C CNN
+	1    7900 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PVDD1
+U 1 1 5936FD4C
+P 8950 3350
+F 0 "PVDD1" H 9200 3350 50  0001 C CNN
+F 1 "VDD" H 9050 3350 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3350 50  0001 C CNN
+F 3 "" H 8950 3350 50  0001 C CNN
+	1    8950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5937019E
+P 5100 2250
+F 0 "C1" H 5125 2350 50  0000 L CNN
+F 1 "0.1uF" H 5125 2150 50  0000 L CNN
+F 2 ".pretty:1608" H 5138 2100 50  0001 C CNN
+F 3 "" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 59384C70
+P 1750 1250
+F 0 "#FLG01" H 1750 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1400 50  0000 C CNN
+F 2 "" H 1750 1250 50  0001 C CNN
+F 3 "" H 1750 1250 50  0001 C CNN
+	1    1750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 PGND2
+U 1 1 5944AC29
+P 7900 3350
+F 0 "PGND2" H 8200 3350 50  0001 C CNN
+F 1 "GND" H 8000 3350 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3350 50  0001 C CNN
+F 3 "" H 7900 3350 50  0001 C CNN
+	1    7900 3350
+	-1   0    0    1   
+$EndComp
+Text GLabel 3300 5100 0    47   Input ~ 0
+DIO
+Text GLabel 3300 5000 0    47   Input ~ 0
+CLK
+Text GLabel 3300 4900 0    47   Input ~ 0
+RST
+Text GLabel 3300 4800 0    47   Input ~ 0
+DFU
+Text GLabel 3300 4600 0    47   Input ~ 0
+16
+Text GLabel 1750 1450 3    47   Input ~ 0
+GND
+Text GLabel 3300 4500 0    47   Input ~ 0
+14
+Text GLabel 3300 4400 0    47   Input ~ 0
+12
+Text GLabel 3950 2850 1    47   Input ~ 0
+RX
+Text GLabel 4050 2850 1    47   Input ~ 0
+7
+Text GLabel 4150 2850 1    47   Input ~ 0
+TX
+Text GLabel 4250 2850 1    47   Input ~ 0
+5
+Text GLabel 4350 2850 1    47   Input ~ 0
+4
+Text GLabel 4450 2850 1    47   Input ~ 0
+3
+Text GLabel 4550 2850 1    47   Input ~ 0
+2
+Text GLabel 4850 1750 1    47   Input ~ 0
+VDD
+Text GLabel 5500 4900 2    47   Input ~ 0
+26
+Text GLabel 5500 4700 2    47   Input ~ 0
+28
+Text GLabel 5500 4600 2    47   Input ~ 0
+29
+Text GLabel 5500 4400 2    47   Input ~ 0
+31
+Text GLabel 8750 4700 0    47   Input ~ 0
+25
+Text GLabel 8750 4550 0    47   Input ~ 0
+26
+Text GLabel 8750 4250 0    47   Input ~ 0
+28
+Text GLabel 8750 4100 0    47   Input ~ 0
+29
+Text GLabel 8750 3950 0    47   Input ~ 0
+30
+Text GLabel 8750 3350 0    47   Input ~ 0
+VDD
+Text GLabel 8100 3500 2    47   Input ~ 0
+2
+Text GLabel 8100 3650 2    47   Input ~ 0
+3
+Text GLabel 8100 3800 2    47   Input ~ 0
+4
+Text GLabel 8100 2900 2    47   Input ~ 0
+5
+Text GLabel 8650 2550 3    47   Input ~ 0
+TX
+Text GLabel 8100 3050 2    47   Input ~ 0
+7
+Text GLabel 8500 2550 3    47   Input ~ 0
+RX
+Text GLabel 8100 4850 2    47   Input ~ 0
+DIO
+Text GLabel 8100 4700 2    47   Input ~ 0
+CLK
+Text GLabel 8750 3200 0    47   Input ~ 0
+RST
+Text GLabel 7300 5000 2    47   Input ~ 0
+DFU
+Text GLabel 8100 4400 2    47   Input ~ 0
+16
+Text GLabel 8100 4250 2    47   Input ~ 0
+14
+Text GLabel 8100 4100 2    47   Input ~ 0
+12
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5978019E
+P 1300 1250
+F 0 "#FLG02" H 1300 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 1400 50  0000 C CNN
+F 2 "" H 1300 1250 50  0001 C CNN
+F 3 "" H 1300 1250 50  0001 C CNN
+	1    1300 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 1450 3    47   Input ~ 0
+VDD
+$Comp
+L BL652 U1
+U 1 1 5A1A96FB
+P 4150 4800
+F 0 "U1" H 4700 5200 60  0000 C CNN
+F 1 "BL652" H 4700 5100 60  0000 C CNN
+F 2 ".pretty:BL652" H 4150 4800 60  0001 C CNN
+F 3 "" H 4150 4800 60  0001 C CNN
+	1    4150 4800
+	0    1    1    0   
+$EndComp
+Text GLabel 5500 5000 2    47   Input ~ 0
+25
+$Comp
+L LED LED1
+U 1 1 5A1AB872
+P 6400 4050
+F 0 "LED1" H 6400 4150 50  0000 C CNN
+F 1 "RED" H 6400 3950 50  0000 C CNN
+F 2 ".pretty:1608" H 6400 4050 50  0001 C CNN
+F 3 "" H 6400 4050 50  0001 C CNN
+	1    6400 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED2
+U 1 1 5A1AB93A
+P 6400 4450
+F 0 "LED2" H 6400 4550 50  0000 C CNN
+F 1 "YELLOW GREEN" H 6400 4350 50  0000 C CNN
+F 2 ".pretty:1608" H 6400 4450 50  0001 C CNN
+F 3 "" H 6400 4450 50  0001 C CNN
+	1    6400 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 5A1A9188
+P 6050 4050
+F 0 "R1" V 6130 4050 50  0000 C CNN
+F 1 "1K" V 6050 4050 50  0000 C CNN
+F 2 ".pretty:1608" V 5980 4050 50  0001 C CNN
+F 3 "" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A1A91DD
+P 6050 4450
+F 0 "R2" V 6130 4450 50  0000 C CNN
+F 1 "330" V 6050 4450 50  0000 C CNN
+F 2 ".pretty:1608" V 5980 4450 50  0001 C CNN
+F 3 "" H 6050 4450 50  0001 C CNN
+	1    6050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5A1ABC69
+P 8650 5950
+F 0 "C4" H 8675 6050 50  0000 L CNN
+F 1 "0.1uF" H 8675 5850 50  0000 L CNN
+F 2 ".pretty:1608" H 8688 5800 50  0001 C CNN
+F 3 "" H 8650 5950 50  0001 C CNN
+	1    8650 5950
+	0    1    1    0   
+$EndComp
+Text GLabel 8900 5750 1    47   Input ~ 0
+RST
+$Comp
+L D D1
+U 1 1 5A1ABF52
+P 9300 5950
+F 0 "D1" H 9300 6050 50  0000 C CNN
+F 1 "D" H 9300 5850 50  0000 C CNN
+F 2 ".pretty:Diode" H 9300 5950 50  0001 C CNN
+F 3 "" H 9300 5950 50  0001 C CNN
+	1    9300 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A1AC173
+P 9300 5650
+F 0 "R3" V 9380 5650 50  0000 C CNN
+F 1 "10K" V 9300 5650 50  0000 C CNN
+F 2 ".pretty:1608" V 9230 5650 50  0001 C CNN
+F 3 "" H 9300 5650 50  0001 C CNN
+	1    9300 5650
+	0    1    1    0   
+$EndComp
+Text GLabel 9750 5950 2    47   Input ~ 0
+VDD
+$Comp
+L Conn_01x01 PFRST1
+U 1 1 5A1D45F7
+P 7100 5150
+F 0 "PFRST1" H 7400 5150 50  0001 C CNN
+F 1 "FRST" H 7200 5150 50  0000 L CNN
+F 2 ".pretty:Circle" H 7100 5150 50  0001 C CNN
+F 3 "" H 7100 5150 50  0001 C CNN
+	1    7100 5150
+	-1   0    0    1   
+$EndComp
+Text GLabel 7300 5150 2    47   Input ~ 0
+FRST
+Text GLabel 3300 5200 0    47   Input ~ 0
+FRST
+NoConn ~ 3300 4100
+NoConn ~ 3300 4200
+$Comp
+L Conn_01x01 PGND5
+U 1 1 5A1D39A6
+P 8200 2350
+F 0 "PGND5" H 8500 2350 50  0001 C CNN
+F 1 "GND" V 8300 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8200 2350 50  0001 C CNN
+F 3 "" H 8200 2350 50  0001 C CNN
+	1    8200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 PGND4
+U 1 1 5A33212F
+P 8050 2350
+F 0 "PGND4" H 8350 2350 50  0001 C CNN
+F 1 "GND" V 8150 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8050 2350 50  0001 C CNN
+F 3 "" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8350 2550 3    47   Input ~ 0
+VDD
+$Comp
+L Conn_01x01 PVDD2
+U 1 1 5A332E08
+P 8350 2350
+F 0 "PVDD2" H 8600 2350 50  0001 C CNN
+F 1 "VDD" V 8450 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8350 2350 50  0001 C CNN
+F 3 "" H 8350 2350 50  0001 C CNN
+	1    8350 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 PNC2
+U 1 1 5A334529
+P 8950 2900
+F 0 "PNC2" H 9250 2900 50  0001 C CNN
+F 1 "NC" H 9050 2900 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 2900 50  0001 C CNN
+F 3 "" H 8950 2900 50  0001 C CNN
+	1    8950 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8750 2900
+$Comp
+L Conn_01x01 PDTR1
+U 1 1 5A337E54
+P 8800 2350
+F 0 "PDTR1" H 9050 2350 50  0001 C CNN
+F 1 "DTR" V 8900 2350 50  0000 C CNN
+F 2 ".pretty:Wirepad" H 8800 2350 50  0001 C CNN
+F 3 "" H 8800 2350 50  0001 C CNN
+	1    8800 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8800 2550 3    47   Input ~ 0
+DTR
+Text GLabel 8450 5950 0    47   Input ~ 0
+DTR
+$Comp
+L Conn_01x01 PGND1
+U 1 1 5A33BC8E
+P 7900 3200
+F 0 "PGND1" H 8200 3200 50  0001 C CNN
+F 1 "GND" H 8000 3200 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3200 50  0001 C CNN
+F 3 "" H 7900 3200 50  0001 C CNN
+	1    7900 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 PGND3
+U 1 1 5A33C47B
+P 8950 3050
+F 0 "PGND3" H 9250 3050 50  0001 C CNN
+F 1 "GND" H 9050 3050 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3050 50  0001 C CNN
+F 3 "" H 8950 3050 50  0001 C CNN
+	1    8950 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 4500 2    47   Input ~ 0
+30
+$Comp
+L Conn_01x01 P31
+U 1 1 5A33F601
+P 8950 3800
+F 0 "P31" H 9200 3800 50  0001 C CNN
+F 1 "31" H 9050 3800 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 3800 0    47   Input ~ 0
+31
+Text GLabel 5500 4000 2    47   Input ~ 0
+13
+$Comp
+L Conn_01x01 P13
+U 1 1 5A33FC01
+P 8950 3500
+F 0 "P13" H 9200 3500 50  0001 C CNN
+F 1 "13" H 9050 3500 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3500 50  0001 C CNN
+F 3 "" H 8950 3500 50  0001 C CNN
+	1    8950 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 3500 0    47   Input ~ 0
+13
+Text GLabel 3300 4300 0    47   Input ~ 0
+11
+$Comp
+L Conn_01x01 P11
+U 1 1 5A3413CF
+P 7900 3950
+F 0 "P11" H 8200 3950 50  0001 C CNN
+F 1 "11" H 8000 3950 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 3950 50  0001 C CNN
+F 3 "" H 7900 3950 50  0001 C CNN
+	1    7900 3950
+	-1   0    0    1   
+$EndComp
+Text GLabel 8100 3950 2    47   Input ~ 0
+11
+Text GLabel 5500 4100 2    47   Input ~ 0
+15
+$Comp
+L Conn_01x01 P15
+U 1 1 5A3421E6
+P 8950 3650
+F 0 "P15" H 9200 3650 50  0001 C CNN
+F 1 "15" H 9050 3650 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 3650 50  0001 C CNN
+F 3 "" H 8950 3650 50  0001 C CNN
+	1    8950 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 3650 0    47   Input ~ 0
+15
+$Comp
+L Conn_01x01 P18
+U 1 1 5A342B49
+P 7900 4550
+F 0 "P18" H 8200 4550 50  0001 C CNN
+F 1 "18" H 8000 4550 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 4550 50  0001 C CNN
+F 3 "" H 7900 4550 50  0001 C CNN
+	1    7900 4550
+	-1   0    0    1   
+$EndComp
+Text GLabel 8100 4550 2    47   Input ~ 0
+18
+Text GLabel 3300 4700 0    47   Input ~ 0
+18
+Wire Wire Line
+	1750 1250 1750 1450
+Wire Wire Line
+	4850 1750 4850 2250
+Wire Wire Line
+	4850 2250 4850 2950
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4000 2450
+Wire Wire Line
+	3750 2550 4000 2550
+Wire Wire Line
+	4000 2550 4200 2550
+Connection ~ 4000 2050
+Wire Wire Line
+	4000 2050 4000 2150
+Wire Wire Line
+	3750 2050 4000 2050
+Wire Wire Line
+	4000 2050 4200 2050
+Wire Wire Line
+	4200 2550 4200 2400
+Wire Wire Line
+	4200 2050 4200 2300
+Wire Wire Line
+	4200 2300 4750 2300
+Wire Wire Line
+	1300 1250 1300 1450
+Wire Wire Line
+	4200 2400 4650 2400
+Wire Wire Line
+	4650 2400 4650 2950
+Wire Wire Line
+	4750 2300 4750 2950
+Wire Wire Line
+	5500 5100 5400 5100
+Wire Wire Line
+	5500 5000 5400 5000
+Wire Wire Line
+	5500 4900 5400 4900
+Wire Wire Line
+	5500 4700 5400 4700
+Wire Wire Line
+	5500 4600 5400 4600
+Wire Wire Line
+	5500 4400 5400 4400
+Wire Wire Line
+	3400 5500 3300 5500
+Wire Wire Line
+	3400 5100 3300 5100
+Wire Wire Line
+	3400 5000 3300 5000
+Wire Wire Line
+	3400 4900 3300 4900
+Wire Wire Line
+	3400 4800 3300 4800
+Wire Wire Line
+	3400 4600 3300 4600
+Wire Wire Line
+	3400 4500 3300 4500
+Wire Wire Line
+	3400 4400 3300 4400
+Wire Wire Line
+	3400 4000 3300 4000
+Wire Wire Line
+	4550 2850 4550 2950
+Wire Wire Line
+	4450 2950 4450 2850
+Wire Wire Line
+	4350 2850 4350 2950
+Wire Wire Line
+	4250 2950 4250 2850
+Wire Wire Line
+	4150 2850 4150 2950
+Wire Wire Line
+	4050 2950 4050 2850
+Wire Wire Line
+	3950 2850 3950 2950
+Wire Wire Line
+	5400 4200 5750 4200
+Wire Wire Line
+	5750 4200 5750 4050
+Wire Wire Line
+	5750 4050 5900 4050
+Wire Wire Line
+	5400 4300 5750 4300
+Wire Wire Line
+	5750 4300 5750 4450
+Wire Wire Line
+	5750 4450 5900 4450
+Wire Wire Line
+	6700 4050 6550 4050
+Wire Wire Line
+	6700 4450 6550 4450
+Wire Wire Line
+	8900 5750 8900 5950
+Wire Wire Line
+	8800 5950 8900 5950
+Wire Wire Line
+	8900 5950 9100 5950
+Wire Wire Line
+	9100 5950 9150 5950
+Connection ~ 8900 5950
+Wire Wire Line
+	9150 5650 9100 5650
+Wire Wire Line
+	9100 5650 9100 5950
+Connection ~ 9100 5950
+Wire Wire Line
+	9450 5650 9500 5650
+Wire Wire Line
+	9500 5650 9500 5950
+Wire Wire Line
+	9450 5950 9500 5950
+Wire Wire Line
+	9500 5950 9750 5950
+Connection ~ 9500 5950
+Wire Wire Line
+	3400 5300 3300 5300
+Wire Wire Line
+	3400 5200 3300 5200
+Wire Wire Line
+	3400 4200 3300 4200
+Wire Wire Line
+	3400 4100 3300 4100
+Wire Wire Line
+	3400 5400 3300 5400
+Wire Wire Line
+	8500 5950 8450 5950
+Wire Wire Line
+	6250 4050 6200 4050
+Wire Wire Line
+	6250 4450 6200 4450
+Wire Wire Line
+	5400 4500 5500 4500
+Wire Wire Line
+	5400 4000 5500 4000
+Wire Wire Line
+	3400 4300 3300 4300
+Wire Wire Line
+	5500 4100 5400 4100
+Wire Wire Line
+	3400 4700 3300 4700
+Connection ~ 4850 2250
+Wire Wire Line
+	4950 2250 4850 2250
+Wire Wire Line
+	5350 2250 5250 2250
+Wire Wire Line
+	4950 2950 4950 2850
+Wire Wire Line
+	5500 4800 5400 4800
+Text GLabel 3300 4000 0    47   Input ~ 0
+GND
+Text GLabel 3450 2050 0    47   Input ~ 0
+GND
+Text GLabel 3450 2550 0    47   Input ~ 0
+GND
+Text GLabel 5350 2250 2    47   Input ~ 0
+GND
+Text GLabel 4950 2850 1    47   Input ~ 0
+GND
+Text GLabel 5500 5100 2    47   Input ~ 0
+GND
+Text GLabel 8100 3200 2    47   Input ~ 0
+GND
+Text GLabel 6700 4050 2    47   Input ~ 0
+GND
+Text GLabel 6700 4450 2    47   Input ~ 0
+GND
+Text GLabel 8100 3350 2    47   Input ~ 0
+GND
+Text GLabel 8750 3050 0    47   Input ~ 0
+GND
+Text GLabel 8050 2550 3    47   Input ~ 0
+GND
+Text GLabel 8200 2550 3    47   Input ~ 0
+GND
+Text GLabel 3300 5500 0    47   Input ~ 0
+GND
+Text GLabel 5500 4800 2    47   Input ~ 0
+27
+$Comp
+L Conn_01x01 P27
+U 1 1 5A392753
+P 8950 4400
+F 0 "P27" H 9200 4400 50  0001 C CNN
+F 1 "27" H 9050 4400 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 8950 4400 50  0001 C CNN
+F 3 "" H 8950 4400 50  0001 C CNN
+	1    8950 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 4400 0    47   Input ~ 0
+27
+Text GLabel 3300 5300 0    47   Input ~ 0
+23
+Text GLabel 3300 5400 0    47   Input ~ 0
+24
+$Comp
+L Conn_01x01 P23
+U 1 1 5A3DFC4C
+P 7900 5000
+F 0 "P23" H 8200 5000 50  0001 C CNN
+F 1 "23" H 8000 5000 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 5000 50  0001 C CNN
+F 3 "" H 7900 5000 50  0001 C CNN
+	1    7900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 P24
+U 1 1 5A3DFC7B
+P 7900 5150
+F 0 "P24" H 8200 5150 50  0001 C CNN
+F 1 "24" H 8000 5150 50  0000 L CNN
+F 2 ".pretty:Wirepad" H 7900 5150 50  0001 C CNN
+F 3 "" H 7900 5150 50  0001 C CNN
+	1    7900 5150
+	-1   0    0    1   
+$EndComp
+Text GLabel 8100 5000 2    47   Input ~ 0
+23
+Text GLabel 8100 5150 2    47   Input ~ 0
+24
+$EndSCHEMATC
