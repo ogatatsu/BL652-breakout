@@ -1,5 +1,13 @@
 # BL652-breakout
 
+LairdTechのnRF52832モジュールBL652のブレークアウト基板
+
+Adafruit [Feather nRF52](https://www.adafruit.com/product/3406)の[ブートローダー](https://github.com/adafruit/Adafruit_nRF52_Arduino)を書き込むことを意識して設計してあり、書き込み後はArduino Pro Mini用のusbシリアル変換アダプタを挿せばArduinoで開発できます
+
+![1](./images/1.PNG)
+![2](./images/2.PNG)
+![3](./images/3.PNG)
+
 部品表
 
 | Name | Qty | Description | Manufacturer
